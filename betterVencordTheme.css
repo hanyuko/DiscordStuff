@@ -489,6 +489,7 @@ main[class*=chatContent] {
 
 div[class*=members],
 aside[class*=profilePanel] {
+  width: 473.3px;
   margin-left: 16px;
 }
 
