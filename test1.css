@@ -163,7 +163,7 @@ html:root,
   --header-secondary: var(--synqats-gb-grey-2);
   --channel-icon: var(--synqats-gb-grey-2);
   --channels-default: var(--synqats-gb-grey-2);
-  --input-placeholder-text: var(--synqats-gb-grey-1);
+  --input-placeholder-text: var(--synqats-gb-fg-0-dark);
   --channel-text-area-placeholder: var(--synqats-gb-grey-1);
   --button-secondary-background: var(--synqats-gb-bg-4);
   --button-secondary-background-active: var(--synqats-gb-bg-5);
@@ -491,10 +491,6 @@ aside[class*=profilePanel] {
   width: 473.3px;
 }
 
-span {
-  color: var(--synqats-gb-fg-0-dark);
-}
-
 div[class*=members],
 aside[class*=profilePanel] {
   margin-left: 16px;
@@ -524,7 +520,7 @@ div[role=dialog] div[class*=footer] {
 }
 
 input[class*=inputDefault] {
-  background-color: var(--synqats-gb-bg-0);
+  background-color: var(--synqats-gb-fg-0-dark);
 }
 
 div[class*=searchBar] {
