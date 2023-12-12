@@ -520,7 +520,7 @@ div[role=dialog] div[class*=footer] {
 }
 
 input[class*=inputDefault] {
-  background-color: var(--synqats-gb-fg-0-dark);
+  background-color: var(--input-background);
 }
 
 div[class*=searchBar] {
