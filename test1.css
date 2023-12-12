@@ -491,6 +491,10 @@ aside[class*=profilePanel] {
   width: 473.3px;
 }
 
+span {
+  color: var(--synqats-gb-fg-0-dark);
+}
+
 div[class*=members],
 aside[class*=profilePanel] {
   margin-left: 16px;
@@ -503,10 +507,6 @@ section[class*=panels] div[class*=container] {
 div[class*=members] [class*=member] {
   margin-left: unset;
   background: unset;
-}
-
-span {
-  color: var(--synqats-gb-fg-0-dark);
 }
 
 div[class*=gradientContainer][class*=gradientBottom] {
