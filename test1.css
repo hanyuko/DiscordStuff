@@ -163,7 +163,7 @@ html:root,
   --header-secondary: var(--synqats-gb-grey-2);
   --channel-icon: var(--synqats-gb-grey-2);
   --channels-default: var(--synqats-gb-grey-2);
-  --input-placeholder-text: var(--synqats-gb-fg-0-dark);
+  --input-placeholder-text: var(--synqats-gb-grey-1);
   --channel-text-area-placeholder: var(--synqats-gb-grey-1);
   --button-secondary-background: var(--synqats-gb-bg-4);
   --button-secondary-background-active: var(--synqats-gb-bg-5);
@@ -622,4 +622,20 @@ div[class*=messageAttachment] div[class*=ripple] {
 }
 div[class*=messageAttachment] canvas[class*=waveform] {
   filter: grayscale(1);
+}
+
+span[class*=discrim] {
+  color: var(--text-muted);
+}
+
+div[class*=overflowEllipsis] {
+  color: var(--text-muted);
+}
+
+div[class*=paymentPane] {
+  color: var(--synqats-gb-grey-1);
+}
+
+span[class*=key] {
+  color: var(--synqats-gb-grey-1);
 }
