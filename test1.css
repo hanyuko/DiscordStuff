@@ -624,18 +624,11 @@ div[class*=messageAttachment] canvas[class*=waveform] {
   filter: grayscale(1);
 }
 
-span[class*=discrim] {
-  color: var(--text-muted);
-}
-
-div[class*=overflowEllipsis] {
-  color: var(--text-muted);
-}
-
-div[class*=paymentPane] {
-  color: var(--synqats-gb-grey-1);
-}
-
-span[class*=key] {
-  color: var(--synqats-gb-grey-1);
-}
+/* CSS FIX */
+span[class*=discrim] { color: var(--text-muted); }
+div[class*=overflowEllipsis] { color: var(--text-muted); }
+div[class*=paymentPane] { color: var(--synqats-gb-grey-1); }
+div[class*=summaryInfo] { color: var(--synqats-gb-grey-1); }
+span[class*=key] { color: var(--synqats-gb-grey-1); }
+div[class*=newChannel] { color: white; }
+div[class*=textBadge] { padding: 0 14px; } 
