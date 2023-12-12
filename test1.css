@@ -624,3 +624,7 @@ div[class*=messageAttachment] div[class*=ripple] {
 div[class*=messageAttachment] canvas[class*=waveform] {
   filter: grayscale(1);
 }
+
+span {
+  color: var(--synqats-gb-fg-0-dark);
+}
