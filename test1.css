@@ -627,8 +627,14 @@ div[class*=messageAttachment] canvas[class*=waveform] {
 /* CSS FIX */
 span[class*=discrim] { color: var(--text-muted) !important; }
 div[class*=overflowEllipsis] { color: var(--text-muted) !important; }
+/* Payment section */
 div[class*=paymentPane] { color: var(--synqats-gb-grey-1) !important; }
+div[class*=expandedInfo] { color: var(--text-muted) !important; }
 div[class*=summaryInfo] { color: var(--synqats-gb-grey-1) !important; }
-span[class*=key] { color: var(--synqats-gb-grey-1) !important; }
+span[class*=key] {
+  color: var(--synqats-gb-grey-1) !important;
+  fill: var(--synqats-gb-grey-1) !important;
+}
 div[class*=newChannel] { color: white !important; }
 div[class*=textBadge] { padding: 0 14px !important; } 
+div[class*=keybindDescription] { color: var(--synqats-gb-fg-0) !important; }
