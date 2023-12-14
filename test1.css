@@ -512,19 +512,19 @@ div[class*=gradientContainer][class*=gradientBottom] {
 
 div[class*=bottomControls],
 div[class*=regionSelectName] {
-  --primary-300: var(--synqats-gb-fg-0);
+  --primary-300: var(--synqats-gb-fg-0) !important;
 }
 
 div[role=dialog] div[class*=footer] {
-  --primary-200: var(--synqats-gb-fg-0);
+  --primary-200: var(--synqats-gb-fg-0) !important;
 }
 
 input[class*=inputDefault] {
-  background-color: var(--synqats-gb-bg-dim);
+  background-color: var(--synqats-gb-bg-dim) !important;
 }
 
 div[class*=searchBar] {
-  background-color: var(--synqats-gb-bg-dim);
+  background-color: var(--synqats-gb-bg-dim) !important;
 }
 
 div[class*=members] {
@@ -621,7 +621,7 @@ div[class*=messageAttachment] div[class*=ripple] {
   --brand-500: var(--synqats-gb-bg-5) !important;
 }
 div[class*=messageAttachment] canvas[class*=waveform] {
-  filter: grayscale(1);
+  filter: grayscale(1) !important;
 }
 
 /* CSS FIX */
