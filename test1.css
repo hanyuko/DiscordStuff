@@ -625,11 +625,14 @@ div[class*=messageAttachment] canvas[class*=waveform] {
 }
 
 /* CSS FIX */
-span[class*=discrim] div[class*=overflowEllipsis] div[class*=expandedInfo] {
+span[class*=discrim],
+div[class*=overflowEllipsis],
+div[class*=expandedInfo] {
   color: var(--text-muted) !important; 
 }
 /* Payment section */
-div[class*=paymentPane] div[class*=summaryInfo] {
+div[class*=paymentPane],
+div[class*=summaryInfo] {
   color: var(--synqats-gb-grey-1) !important;
 }
 
@@ -638,8 +641,11 @@ span[class*=key] {
   fill: var(--synqats-gb-grey-1) !important;
 }
 div[class*=newChannel] { color: white !important; }
-div[class*=textBadge] { padding: 0 14px !important; } 
-div[class*=keybindDescription] div[class*=inviteRowName] {
+div[class*=textBadge] { padding: 0 14px !important; }
+
+div[class*=keybindDescription],
+div[class*=inviteRowName] {
   color: var(--synqats-gb-fg-0) !important;
 }
+
 span[class*=hljs-keyword] { color: #ff7b72 !important; }
