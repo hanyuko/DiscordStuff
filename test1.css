@@ -536,9 +536,9 @@ main[class*=chatContent] {
   background-color: var(--synqats-gb-bg-word);
 }
 
-[class*=member] [class*=subText] {
+/* [class*=member] [class*=subText] {
   display: none;
-}
+} */
 
 [class*=membersGroup] {
   height: unset;
