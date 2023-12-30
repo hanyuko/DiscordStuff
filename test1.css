@@ -649,3 +649,10 @@ div[class*=inviteRowName] {
 }
 
 span[class*=hljs-keyword] { color: #ff7b72 !important; }
+
+div[class*=tabItemSelected] {
+  color: var(--synqats-gb-fg-0) !important;
+  border-bottom: 2px solid var(--synqats-gb-fg-0) !important;
+}
+
+div[class*=tabContainer] { color: var(--text-muted)  !important; }
