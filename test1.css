@@ -656,3 +656,8 @@ div[class*=tabItemSelected] {
 }
 
 div[class*=tabContainer] { color: var(--text-muted)  !important; }
+
+div[class*=embedTitle],
+div[class*=embedFieldName] {
+  color: var(--synqats-gb-fg-0) !important;
+}
