@@ -666,4 +666,5 @@ span[class*=embedAuthorName] {
 div[class*=message] div[class*=selected] { background: var(--bg-overlay-selected) !important; }
 
 div[class*=themedBackground] { background: var(--bg-overlay-2) !important; }
-.message__80c10:hover { background: #2c2827 !important; }
+div[class*=message]:hover { background: var(--synqats-gb-bg-2-dark) !important; }
+div[class*=.mentioned]:hover { background: var(--background-mentioned-hover) !important; }
