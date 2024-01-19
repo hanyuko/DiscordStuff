@@ -665,4 +665,4 @@ span[class*=embedAuthorName] {
 
 div[class*=message] div[class*=selected] { background: var(--bg-overlay-selected) !important; }
 
-div[class*=message]:hover { background: var(--bg-overlay-selected) !important; }
+ /* div[class*=message]:hover { background: var(--bg-overlay-selected) !important; } */
