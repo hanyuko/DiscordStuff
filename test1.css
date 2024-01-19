@@ -663,4 +663,5 @@ span[class*=embedAuthorName] {
   color: var(--synqats-gb-fg-0) !important;
 }
 
-div[class*=selected] { background-color: var(--bg-overlay-selected) !important; }
+div[class*=message] div[class*=selected] { background-color: var(--bg-overlay-selected) !important; }
+div[class*=message] div[class*=selected]:hover { background-color: var(--bg-overlay-selected) !important; }
