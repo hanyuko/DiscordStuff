@@ -659,6 +659,8 @@ div[class*=tabContainer] { color: var(--text-muted)  !important; }
 
 div[class*=embedTitle],
 div[class*=embedFieldName],
-div[class*=embedAuthorName] {
+span[class*=embedAuthorName] {
   color: var(--synqats-gb-fg-0) !important;
 }
+
+div[class*=selected] { background-color: var(--bg-overlay-selected) !important; }
