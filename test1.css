@@ -665,4 +665,4 @@ span[class*=embedAuthorName] {
 
 div[class*=message] div[class*=selected] { background: var(--bg-overlay-selected) !important; }
 
-div[class*=themedBackground] { background: var(--bg-overlay-2,var(--channeltextarea-background)) !important; }
+div[class*=themedBackground] { background: var(--bg-overlay-2) !important; }
