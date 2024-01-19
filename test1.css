@@ -147,7 +147,7 @@ html:root,
   --mention-background: var(--synqats-gb-bg-diff-red);
   --bg-overlay-1: var(--synqats-gb-bg-word);
   --bg-overlay-2: var(--synqats-gb-bg-0);
-  --bg-overlay-3: var(--synqats-gb-bg-0);
+  --bg-overlay-3: var(--synqats-gb-bg-2);
   --bg-overlay-chat: var(--synqats-gb-bg-1);
   --bg-overlay-app-frame: var(--synqats-gb-bg-dim);
   --bg-overlay-selected: var(--synqats-gb-bg-2);
@@ -664,5 +664,3 @@ span[class*=embedAuthorName] {
 }
 
 div[class*=message] div[class*=selected] { background: var(--bg-overlay-selected) !important; }
-
-.mouse-mode.full-motion div[class*=message]:hover { background: var(--bg-overlay-selected) !important; }
