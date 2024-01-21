@@ -659,7 +659,8 @@ div[class*=tabContainer] { color: var(--text-muted)  !important; }
 
 div[class*=embedTitle],
 div[class*=embedFieldName],
-span[class*=embedAuthorName] {
+span[class*=embedAuthorName],
+a[class*=embedAuthorNameLink] {
   color: var(--synqats-gb-fg-0) !important;
 }
 
