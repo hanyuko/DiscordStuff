@@ -664,7 +664,7 @@ a[class*=embedAuthorNameLink] {
   color: var(--synqats-gb-fg-0) !important;
 }
 
-div[class*=message]::hover  { background: var(--bg-overlay-selected) !important; }
+.message__80c10:hover  { background: var(--bg-overlay-selected) !important; }
 
 div[class*=themedBackground] { background: var(--bg-overlay-2) !important; }
 div[class*=mentioned]::hover { background: var(--background-mentioned-hover) !important; }
