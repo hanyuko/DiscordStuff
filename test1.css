@@ -667,4 +667,4 @@ a[class*=embedAuthorNameLink] {
 .theme-dark .message__80c10.selected_fd9051, .theme-dark.mouse-mode.full-motion .message__80c10:hover { background: var(--bg-overlay-selected) !important; }
 
 div[class*=themedBackground] { background: var(--bg-overlay-2) !important; }
-div[class*=mentioned]::hover { background: var(--background-mentioned-hover) !important; }
+.message__80c10.mentioned__58017.selected_fd9051, .mouse-mode.full-motion .mentioned__58017:hover { background: var(--background-mentioned-hover) !important; }
