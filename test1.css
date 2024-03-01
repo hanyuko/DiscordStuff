@@ -501,7 +501,7 @@ section[class*=panels] div[class*=container] {
 }
 
 div[class*=members] [class*=member] {
-  background: unset;
+  /* background: unset; */
 }
 
 div[class*=gradientContainer][class*=gradientBottom] {
