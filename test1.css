@@ -501,7 +501,7 @@ section[class*=panels] div[class*=container] {
 }
 
 div[class*=members] [class*=member] {
-  /* background: unset; */
+  background: unset;
 }
 
 div[class*=gradientContainer][class*=gradientBottom] {
@@ -668,4 +668,5 @@ a[class*=embedAuthorNameLink] {
 div[class*=themedBackground] { background: var(--bg-overlay-2) !important; }
 .message__80c10.mentioned__58017.selected_fd9051, .mouse-mode.full-motion .mentioned__58017:hover { background: var(--background-mentioned-hover) !important; }
 
-.vc-membercount-widget { --color-total: #989898 !important }
+.vc-membercount-widget { --color-total: #989898 !important; }
+.vc-membercount-online-dot { background-color: var(--color-online) !important; }
