@@ -501,7 +501,6 @@ section[class*=panels] div[class*=container] {
 }
 
 div[class*=members] [class*=member] {
-  margin-left: unset;
   background: unset;
 }
 
@@ -668,3 +667,5 @@ a[class*=embedAuthorNameLink] {
 
 div[class*=themedBackground] { background: var(--bg-overlay-2) !important; }
 .message__80c10.mentioned__58017.selected_fd9051, .mouse-mode.full-motion .mentioned__58017:hover { background: var(--background-mentioned-hover) !important; }
+
+.vc-membercount-widget { --color-total: #989898 !important }
