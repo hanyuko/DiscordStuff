@@ -670,3 +670,7 @@ div[class*=themedBackground] { background: var(--bg-overlay-2) !important; }
 
 .vc-membercount-widget { --color-total: #989898 !important; }
 .vc-membercount-online-dot { background-color: var(--color-online) !important; }
+
+.calendarPicker__5c474 { color: var(--synqats-gb-fg-0) !important; }
+
+.theme-dark .calendarPicker__5c474 .react-datepicker__current-month { color: var(--synqats-gb-fg-0) !important; }
