@@ -1,5 +1,171 @@
 @import url(https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
 
+
+:root {
+  --background-blur: 0px;
+  --background-darkness: 6;
+  --main-color: #007dbd;
+  --hover-color: #03679b;
+  --roundness: 50px;
+  --shadow: rgba(0,0,0,.4);
+  --serverlist-brightness: 11;
+  --left-brightness: 0.7;
+  --middle-brightness: 0.6;
+  --right-brightness: 0;
+  --popout-modal-brightness: 0.7;
+  --gradient-primary: 0,212,255,100;
+  --gradient-secondary: 2,0,36,100;
+  --scrollbar-colour: rgb(75, 75, 75);
+  --glow-intensity: 1;
+  --gradient-direction: 320deg;
+  --tint-colour: 255,51,159;
+  --tint-brightness: 0;
+  --window-padding: 5px;
+  --window-roundness: 20px;
+  --show-gift-gif-buttons: none;
+  --update-notice-1: none;
+  --HSL-server-icon-size: 42px;
+  --HSL-server-spacing: 15px;
+  --rs-small-spacing: 1px;
+  --rs-large-spacing: 3px;
+  --rs-width: 3px;
+  --rs-avatar-shape: 50%;
+  --chat-embed: var(--background-secondary);
+  --discord-green: rgb(67, 181, 129);
+  --discord-yellow: rgb(219, 171, 9);
+  --discord-red: rgb(215, 58, 73);
+  --discord-purple: rgb(89, 54, 149);
+  --discord-invisible: rgb(117, 128, 142);
+  --discord-nitro: rgb(255, 115, 250);
+  --discord-blurple: rgb(114, 137, 218);
+  --discord-spotify: rgb(29, 185, 84);
+  --discord-twitch: rgb(89, 54, 149);
+  --discord-xbox: rgb(16, 124, 16);
+  --fb-popout-modal-image: var(--popout-modal-image, var(--overlay-image));
+  --fb-popout-modal-blur: var(--popout-modal-blur, var(--overlay-image-blur));
+  --fb-popout-modal-size: var(--popout-modal-size, var(--overlay-image-size));
+  --fb-popout-modal-position: var(--popout-modal-position, var(--overlay-image-position));
+}
+.theme-light, .theme-dark {
+    --header-primary: #fff;
+    --header-secondary: #bbb;
+    --text-normal: #fff;
+    --text-default: #ddd;
+    --text-muted: #aaa;
+    --channels-default: #ddd;
+    --interactive-normal: #bbb;
+    --interactive-hover: #eee;
+    --interactive-active: #fff;
+    --interactive-muted: #777;
+    --elevation-stroke: 0 0 0 1px rgba(4, 4, 5, 0.15);
+    --elevation-low: 0 1px 0 rgba(4, 4, 5, 0.2), 0 1.5px 0 rgba(6, 6, 7, 0.05), 0 2px 0 rgba(4, 4, 5, 0.05);
+    --elevation-medium: 0 4px 4px rgba(0, 0, 0, 0.16);
+    --elevation-high: 0 8px 16px rgba(0, 0, 0, 0.24);
+    --logo-primary: #fff;
+    --guild-header-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+    --channeltextarea-background: rgba(255, 255, 255, 0.05);
+    --activity-card-background: #202225;
+    --textbox-markdown-syntax: #8e9297;
+    --deprecated-card-bg: rgba(0, 0, 0, 0.3);
+    --deprecated-card-editable-bg: rgba(0, 0, 0, 0.3);
+    --deprecated-store-bg: #36393f;
+    --deprecated-quickswitcher-input-background: var(--channeltextarea-background);
+    --deprecated-quickswitcher-input-placeholder: rgba(255, 255, 255, 0.5);
+    --deprecated-text-input-bg: rgba(0, 0, 0, 0.1);
+    --deprecated-text-input-border: rgba(0, 0, 0, 0.3);
+    --deprecated-text-input-border-hover: #040405;
+    --deprecated-text-input-border-disabled: #202225;
+    --deprecated-text-input-prefix: #dcddde;
+}
+
+
+/* .role_d81130 {
+  gap: 6px;
+} */
+
+.unread__48cf4 {
+  left: -3px;
+  width: 8px;
+  border-radius: 4px;
+  z-index: 1;
+}
+
+.members-3WRCEx, 
+.members-3WRCEx > div,
+.tutorialContainer-1pL9QS .wrapper-28eC3z .childWrapper-1j_1ub {
+	background-color: initial !important;
+}
+.container-2o3qEW {
+	background: 0 0 !important;
+}
+
+/* USER ROLE */
+
+.role_d81130 {
+  position: relative;
+  display: flex;
+  transition: all 0.1s ease-in-out;
+  background: transparent;
+  cursor: default;
+  border-radius: 15px;
+  border: 1px solid;
+}
+
+.role_d81130 .roleName_d19d33 {
+  margin-right: 4px;
+  margin-left: 0px; /* 4px if role icon is hidden */
+  color: hsla(0, 0%, 100%, 0.9);
+  transition: all 0.1s ease-in-out;
+}
+
+.role_d81130[style]:not(:hover) {
+  border-color: transparent !important;
+}
+
+/* .role_d81130:not([style]) {
+  background: element(roleCircle_bae511:[style]);
+} */
+
+.role_d81130 {
+  position: static;
+  left: calc(100% - 7px);
+}
+
+/* .roleCircle_bae511 */
+/* .roleCircle_bae511 {
+  display: none;
+} */
+
+.roleCircle_bae511:not(:empty) {
+  margin-left: 6px;
+}
+
+.roleCircle_bae511::before {
+  content: '';
+  border-radius: 3px;
+  position: absolute;
+  background: inherit;
+  position: -1px, -1px, -1px, -1px;
+  opacity: 0.2;
+  transition: all 0.1s ease-in-out;
+  pointer-events: none;
+}
+
+/* .roleRemoveButton__737f2 {
+  position: static;
+}
+.roleRemoveButton__737f2 {
+  margin-left: 20px;
+  background: #fff;
+}
+/* .roleRemoveButton__737f2 {
+  left: calc(100% - 7px);
+} */
+
+.autocompletePopoutRow .autocompletePopoutSelected .rowInner-1mo-C8 {
+  background-color: transparent;
+}
+
 :root {
   --synqats-gb-bg-0-dark: #1e2021;
   --synqats-gb-bg-1-dark: #282828;
@@ -666,7 +832,7 @@ a[class*=embedAuthorNameLink] {
 .theme-dark .message_ccca67.selected_e3bc5d, .theme-dark.mouse-mode.full-motion .message_ccca67:hover { background: var(--bg-overlay-selected) !important; }
 
 div[class*=themedBackground] { background: var(--bg-overlay-2) !important; }
-.message__80c10.mentioned__58017.selected_fd9051, .mouse-mode.full-motion .mentioned__58017:hover { background: var(--background-mentioned-hover) !important; }
+.message_ccca67.mentioned_fa6fd2.selected_e3bc5d, .mouse-mode.full-motion .message_ccca67.mentioned_fa6fd2:hover { background: var(--background-mentioned-hover) !important; }
 
 .vc-membercount-widget { --color-total: #989898 !important; }
 .vc-membercount-online-dot { background-color: var(--color-online) !important; }
