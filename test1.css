@@ -842,3 +842,10 @@ div[class*=themedBackground] { background: var(--bg-overlay-2) !important; }
 .theme-dark .calendarPicker__5c474 .react-datepicker__current-month { color: var(--synqats-gb-fg-0) !important; }
 
 .botTagOP_e48ddb { color: #fff !important; }
+
+.userProfileModalInner__84e47 { margin-right: 148px !important; }
+
+.topRow_b0479e { background-color: var(--background-secondary) !important; }
+.bottomRowAction_b95fd7 { background-color: var(--background-secondary) !important; }
+
+.eyebrow__4e5bb { color: var(--background-secondary) !important; }
