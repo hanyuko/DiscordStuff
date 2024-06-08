@@ -849,3 +849,7 @@ div[class*=themedBackground] { background: var(--bg-overlay-2) !important; }
 .bottomRowAction_b95fd7 { background-color: var(--background-secondary) !important; }
 
 .eyebrow__4e5bb { color: var(--background-secondary) !important; }
+
+.userProfileOuterThemed_a425f3.userPopoutOuter_d67f56, .userProfileOuterThemed_a425f3.biteSizeOuter_e0bb1d, .userProfileOuterThemed_a425f3.userProfileOuter__35e59 {
+	border-radius: 6px !important;
+}
