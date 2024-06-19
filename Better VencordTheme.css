@@ -829,19 +829,19 @@ a[class*=embedAuthorNameLink] {
   color: var(--synqats-gb-fg-0) !important;
 }
 
-.theme-dark .message_ccca67.selected_e3bc5d, .theme-dark.mouse-mode.full-motion .message_ccca67:hover { background: var(--bg-overlay-selected) !important; }
+.theme-dark .message_d5deea.selected_d5deea, .theme-dark.mouse-mode.full-motion .message_d5deea:hover { background: var(--bg-overlay-selected) !important; }
 
 div[class*=themedBackground] { background: var(--bg-overlay-2) !important; }
-.message_ccca67.mentioned_fa6fd2.selected_e3bc5d, .mouse-mode.full-motion .message_ccca67.mentioned_fa6fd2:hover { background: var(--background-mentioned-hover) !important; }
+.message_d5deea.mentioned_fa6fd2.selected_d5deea, .mouse-mode.full-motion .message_d5deea.mentioned_fa6fd2:hover { background: var(--background-mentioned-hover) !important; }
 
 .vc-membercount-widget { --color-total: #989898 !important; }
 .vc-membercount-online-dot { background-color: var(--color-online) !important; }
 
-.calendarPicker__5c474 { color: var(--synqats-gb-fg-0) !important; }
+.theme-dark .calendarPicker_be05cd .react-datepicker__day { color: var(--synqats-gb-fg-0) !important; }
 
-.theme-dark .calendarPicker__5c474 .react-datepicker__current-month { color: var(--synqats-gb-fg-0) !important; }
+.theme-dark .calendarPicker_be05cd .react-datepicker__current-month { color: var(--synqats-gb-fg-0) !important; }
 
-.botTagOP_e48ddb { color: #fff !important; }
+.botTagOP_a02df3 { color: #fff !important; }
 
 .userProfileModalInner__84e47 { margin-right: 148px !important; }
 
@@ -853,3 +853,10 @@ div[class*=themedBackground] { background: var(--bg-overlay-2) !important; }
 .userProfileOuterThemed_a425f3.userPopoutOuter_d67f56, .userProfileOuterThemed_a425f3.biteSizeOuter_e0bb1d, .userProfileOuterThemed_a425f3.userProfileOuter__35e59 {
 	border-radius: 6px !important;
 }
+
+.theme-dark .lookLink_dd4f85.colorTransparent_dd4f85 { color: var(--text-link) !important; }
+
+.lookFilled_f6639d.select_f6639d { background-color: var(--synqats-gb-bg-dim) !important; }
+.input_f8bc55 { background-color: var(--synqats-gb-bg-dim) !important; }
+
+.clickable_e9f61e:hover .layout_e9f61e { background: var(--bg-overlay-selected) !important; }
