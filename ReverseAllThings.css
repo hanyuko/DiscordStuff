@@ -2,15 +2,15 @@
  * @name ReverseAllThings
  * @author .hanyuko. [@Aved#2031]
  * @version 1.0.0
- * @invite 86fXF9hZwU
+ * @invite M4YsZQrFQU
  * @description FIX and REPAIR every discord changed appearances include bot's badge, etc.
  * @source https://github.com/DiscordStuff/ReverseAllThings
 */
 
 /* Return BOT badge ( English ) */
-[data-tag*=app] [class*=botText] { visibility: hidden; }
+span [class*=botText] { visibility: hidden; }
 
-[data-tag*=app] [class*=botText]::after {
+span [class*=botText]::after {
   content: 'BOT';
   visibility: visible;
   position: absolute;
