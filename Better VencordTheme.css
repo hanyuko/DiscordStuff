@@ -78,16 +78,21 @@
     --deprecated-text-input-prefix: #dcddde;
 }
 
-
-/* .role_d81130 {
-  gap: 6px;
-} */
-
-.unread__48cf4 {
+.unread_d8bfb3 {
   left: -3px;
   width: 8px;
   border-radius: 4px;
   z-index: 1;
+}
+
+.role_e4010c {
+  position: relative;
+  display: flex;
+  transition: all 0.1s ease-in-out;
+  background: background-color;
+  cursor: default;
+  border-radius: 15px;
+  border: 1px solid;
 }
 
 .members-3WRCEx, 
@@ -97,73 +102,6 @@
 }
 .container-2o3qEW {
 	background: 0 0 !important;
-}
-
-/* USER ROLE */
-
-.role_d81130 {
-  position: relative;
-  display: flex;
-  transition: all 0.1s ease-in-out;
-  background: transparent;
-  cursor: default;
-  border-radius: 15px;
-  border: 1px solid;
-}
-
-.role_d81130 .roleName_d19d33 {
-  margin-right: 4px;
-  margin-left: 0px; /* 4px if role icon is hidden */
-  color: hsla(0, 0%, 100%, 0.9);
-  transition: all 0.1s ease-in-out;
-}
-
-.role_d81130[style]:not(:hover) {
-  border-color: transparent !important;
-}
-
-/* .role_d81130:not([style]) {
-  background: element(roleCircle_bae511:[style]);
-} */
-
-.role_d81130 {
-  position: static;
-  left: calc(100% - 7px);
-}
-
-/* .roleCircle_bae511 */
-/* .roleCircle_bae511 {
-  display: none;
-} */
-
-.roleCircle_bae511:not(:empty) {
-  margin-left: 6px;
-}
-
-.roleCircle_bae511::before {
-  content: '';
-  border-radius: 3px;
-  position: absolute;
-  background: inherit;
-  position: -1px, -1px, -1px, -1px;
-  opacity: 0.2;
-  transition: all 0.1s ease-in-out;
-  pointer-events: none;
-}
-
-/* .roleRemoveButton__737f2 {
-  position: static;
-}
-.roleRemoveButton__737f2 {
-  margin-left: 20px;
-  background: #fff;
-}
-/* .roleRemoveButton__737f2 {
-  left: calc(100% - 7px);
-} */
-
-.autocompletePopoutRow .autocompletePopoutSelected .rowInner-1mo-C8 {
-  background-color: transparent;
 }
 
 :root {
