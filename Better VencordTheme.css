@@ -767,10 +767,10 @@ a[class*=embedAuthorNameLink] {
   color: var(--synqats-gb-fg-0) !important;
 }
 
+.message_d5deea.mentioned_d5deea.selected_d5deea, .mouse-mode.full-motion .message_d5deea.mentioned_d5deea:hover { background: var(--background-mentioned-hover) !important; }
 .theme-dark .message_d5deea.selected_d5deea, .theme-dark.mouse-mode.full-motion .message_d5deea:hover { background: var(--bg-overlay-selected) !important; }
 
 div[class*=themedBackground] { background: var(--bg-overlay-2) !important; }
-.message_d5deea.mentioned_fa6fd2.selected_d5deea, .mouse-mode.full-motion .message_d5deea.mentioned_fa6fd2:hover { background: var(--background-mentioned-hover) !important; }
 
 .vc-membercount-widget { --color-total: #989898 !important; }
 .vc-membercount-online-dot { background-color: var(--color-online) !important; }
