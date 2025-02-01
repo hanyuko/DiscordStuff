@@ -8,9 +8,9 @@
 */
 
 /* Return BOT badge ( English ) */
-[data-tag=app] [class*=botText] { visibility: hidden; }
+span[class*=botText] { visibility: hidden; }
 
-[data-tag=app] [class*=botText]::after {
+span[class*=botText]::after {
   content: 'BOT';
   visibility: visible;
   position: absolute;
