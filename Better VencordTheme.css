@@ -561,6 +561,11 @@ html {
   font-family: "Rubik", sans-serif !important;
 }
 
+div.text__8ac07 {
+  text-rendering: optimizeLegibility !important;
+  font-family: "Rubik", sans-serif !important;
+}
+
 [class*=membersWrap] {
   background-color: var(--synqats-gb-bg-dim);
 }
@@ -767,8 +772,8 @@ a[class*=embedAuthorNameLink] {
   color: var(--synqats-gb-fg-0) !important;
 }
 
-.message_d5deea.mentioned_d5deea.selected_d5deea, .mouse-mode.full-motion .message_d5deea.mentioned_d5deea:hover { background: var(--background-mentioned-hover) !important; }
-.theme-dark .message_d5deea.selected_d5deea, .theme-dark.mouse-mode.full-motion .message_d5deea:hover { background: var(--bg-overlay-selected) !important; }
+.message__5126c.mentioned_5126c.selected_5126c, .mouse-mode.full-motion .message__5126c.mentioned_5126c:hover { background: var(--background-mentioned-hover) !important; }
+.theme-dark .message__5126c.selected_5126c, .theme-dark.mouse-mode.full-motion .message__5126c:hover { background: var(--bg-overlay-selected) !important; }
 
 div[class*=themedBackground] { background: var(--bg-overlay-2) !important; }
 
