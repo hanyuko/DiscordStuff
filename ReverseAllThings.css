@@ -1,18 +1,145 @@
 /**
  * @name ReverseAllThings
- * @author .hanyuko. [@Aved#2031]
- * @version 1.0.0
+ * @author hanyuko.jpg [@Aved#2031]
+ * @version 2.0.0
  * @invite M4YsZQrFQU
- * @description FIX and REPAIR every discord changed appearances include bot's badge, etc.
- * @source https://github.com/DiscordStuff/ReverseAllThings
+ * @description Revert discord's changed appearances.
+ * @source https://github.com/hanyuko/DiscordStuff/ReverseAllThings.css
 */
 
-/* Return BOT badge ( English ) */
-span[class*=botText] { visibility: hidden; }
+/* Revert visual refresh server list - by @scattagain (1098234477626544180) */
+/* Bring back the circle server icon, make them bigger than Discord Product Manager's dick */
+@import url("https://scattagain.github.io/VencordStuff/css/GuildbarRevert.css");
 
-span[class*=botText]::after {
-  content: 'BOT';
-  visibility: visible;
+:root {
+  /* Only include this part if you wish to change these variables */
+  /* You can change the size but only to be less than 48px, you must change the blob scale too */
+  --guildbar-avatar-size: 48px;
+  --blob-scale: 48;
+
+  --guildbar-folder-size: var(--guildbar-avatar-size);
+  --folder-blob-scale: var(--blob-scale);
+}
+
+/* FUCK OFF NAV BAR - by @realnrd (786127059020808192) */
+.bar_c38106 {
+  z-index: 28371983721897;
+}
+
+.title_c38106 {
+  background-color: transparent;
+  background: linear-gradient(to bottom, var(--background-base-lowest), #00000000);
+}
+
+.title_a7d72e {
+  -webkit-app-region: drag;
+}
+
+.sidebar_c48ade {
+  overflow: visible !important;
+  position: relative;
+}
+
+.sidebarList_c48ade {
+  margin-left: 72px;
+}
+
+.wrapper_ef3116 {
   position: absolute;
-  left: 0px;
+  top: -35px;
+  height: 105%;
+}
+
+[class^="stack_dbd263 scroller_ef3116"] {
+  padding-top: 40px !important;
+}
+
+/* Visual Refresh Seamless Chat Bar - by @nspg911 (939370315652415488) */
+/* Move the "Is typing" row to above the chatbox ig */
+.visual-refresh {
+  --custom-channel-textarea-text-area-height: 56px;
+
+  .form_f75fb0 {
+    margin: 0 8px 8px 8px;
+    padding: 0;
+    --chatbar-border-color: var(--border-faint);
+  }
+
+  .channelTextArea_f75fb0 {
+    margin: 0;
+    border-color: var(--chatbar-border-color);
+    transition: none;
+  }
+
+  .base_b88801 {
+    top: -24px;
+    left: 0;
+    right: 0;
+    background-color: var(--chat-background-default);
+    padding: 0 8px;
+    border-radius: var(--radius-sm) var(--radius-sm) 0 0;
+    border: 1px solid var(--chatbar-border-color);
+    border-bottom: none;
+    transition: none;
+    box-sizing: border-box;
+  }
+
+  .stackedBars__74017,
+  .threadSuggestionBar__841c8 {
+    border-color: var(--chatbar-border-color) !important;
+  }
+
+  .form_f75fb0:has(.base_b88801) {
+    .channelTextArea_f75fb0 {
+      border-radius: 0 0 var(--radius-sm) var(--radius-sm);
+    }
+  }
+
+  .form_f75fb0:has(.channelTextArea__74017:focus-within) {
+    --chatbar-border-color: var(--border-subtle);
+  }
+
+  .scrollerSpacer__36d07 {
+    height: calc(24px + 8px);
+  }
+
+  .scroller__36d07::-webkit-scrollbar-track {
+    margin-bottom: calc(20px + 8px);
+  }
+
+  .bottomBar__0f481 {
+    margin-bottom: 24px;
+  }
+
+  .wrapper__44df5 {
+    margin: 0;
+    border-radius: var(--radius-sm);
+  }
+}
+
+/* Revert user area - by @krekevyks1337 (237616896948699136) */
+div[class^=sidebar_] section[class^=panels_] {
+  width: calc(var(--custom-guild-sidebar-width) - var(--custom-guild-list-width) + 1px);
+  left: var(--custom-guild-list-width);
+  bottom: 0px;
+  border-radius: 0px !important;
+  border: none;
+  padding: 0px;
+}
+
+div[class^=sidebar_] nav[class^=wrapper_] {
+  margin-bottom: unset !important;
+}
+
+div[class^=sidebar_] .panel__5dec7 {
+  border-radius: 0px !important;
+}
+
+#vc-spotify-player {
+  border-radius: 0px !important;
+}
+
+div[class^=sidebar_] .scroller__629e4,
+.scroller__99e7c {
+  margin-bottom: unset !important;
 }
