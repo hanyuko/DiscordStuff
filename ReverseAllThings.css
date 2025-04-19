@@ -1,7 +1,7 @@
 /**
  * @name ReverseAllThings
  * @author hanyuko.jpg [@Aved#2031]
- * @version 2.0.1
+ * @version 2.0.0
  * @invite M4YsZQrFQU
  * @description Revert discord's changed appearances.
  * @source https://github.com/DiscordStuff/ReverseAllThings
@@ -24,6 +24,14 @@
 /* BOT bagde - by @hanyuko.jpg (1013627719587733534) */
 span[class*=botText] {
   visibility: hidden;
+}
+
+/* For ClydeAI */
+span[class*=botTagAI] span[class*=botText]::after {
+  content: 'AI';
+  visibility: visible;
+  position: absolute;
+  left: 0;
 }
 
 span[class*=botText]::after {
