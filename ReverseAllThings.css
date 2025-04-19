@@ -1,10 +1,10 @@
 /**
  * @name ReverseAllThings
  * @author hanyuko.jpg [@Aved#2031]
- * @version 2.0.0
+ * @version 2.0.1
  * @invite M4YsZQrFQU
  * @description Revert discord's changed appearances.
- * @source https://github.com/hanyuko/DiscordStuff/blob/main/ReverseAllThings.css
+ * @source https://github.com/DiscordStuff/ReverseAllThings
 */
 
 /* Revert visual refresh server list - by @scattagain (1098234477626544180) */
@@ -19,6 +19,18 @@
 
   --guildbar-folder-size: var(--guildbar-avatar-size);
   --folder-blob-scale: var(--blob-scale);
+}
+
+/* BOT bagde - by @hanyuko.jpg (1013627719587733534) */
+span[class*=botText] {
+  visibility: hidden;
+}
+
+span[class*=botText]::after {
+  content: 'BOT';
+  visibility: visible;
+  position: absolute;
+  left: 0;
 }
 
 /* FUCK OFF NAV BAR - by @realnrd (786127059020808192) */
